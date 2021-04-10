@@ -3,7 +3,7 @@ void modifyrecords()
 	FILE *f;
 	char phonenumber[20];
 	long int size=sizeof(s);
-	if((f=fopen("E:/file.txt","rb+"))==NULL)
+	if((f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","rb+"))==NULL)
 		exit(0);
 	system("cls");
 	printf("Enter phone number of the subscriber to modify:");
