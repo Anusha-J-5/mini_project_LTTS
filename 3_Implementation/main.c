@@ -9,7 +9,7 @@
 #include "search_record"
 #include "delete_record"
 
-struct subscriber
+struct contact
 {
 char phonenumber[20];
 char name[50];
@@ -26,9 +26,9 @@ int main()
 
 	system("cls");
 
-	printf("\n\n\n\t\t**********************************************************************");
+	printf("\n\n\n\t\t---------------------------------------------------------------");
 	printf("\n\n\t\t---WELCOME TO THE TELECOM BILLING MANAGEMENT SYSTEM---");
-	printf("\n\n\t\t****************************************************************");
+	printf("\n\n\t\t-----------------------------------------------------------------");
 	Sleep(2000);
 	getch();
     system("cls");
