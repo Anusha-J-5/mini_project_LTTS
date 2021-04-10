@@ -1,4 +1,4 @@
-void addrecords()
+void addrecords()//to add records
 {
 	FILE *f;
 	char test;
