@@ -3,6 +3,12 @@
 #include<ctype.h>
 #include<windows.h>
 #include<stdlib.h>
+#include "add_record"
+#include "update_record"
+#include "display_list"
+#include "search_record"
+#include "delete_record"
+
 struct subscriber
 {
 char phonenumber[20];
