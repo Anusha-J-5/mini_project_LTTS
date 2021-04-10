@@ -1,69 +1,30 @@
-#include "prototypes.h"
-
-error_t update_record(patient *start, int id, int choice, int test){
-
-    patient *ptr;
-    ptr = start;
-   
-    if(start == NULL){
-        return NO_HEAD_EXIST;
-    }
-    else{
-        int found = 0;
-        while(ptr != NULL){
-            if(ptr->uniq_id == id){
-                found = 1;
-                break;
-            }
-            ptr = ptr->next;
-        }
-        if(found == 1 && test == 0){
-            /* For Unit Testing, make some default values */
-            if(choice == 1){
-                char name[100];
-                printf("Please enter the new first name\n");
-                scanf("%s", name);
-                strcpy(ptr->firstname,name);
-            }
-            if(choice == 2){
-                char name[100];
-                printf("Please enter the new last name\n");
-                scanf("%s", name);
-                strcpy(ptr->lastname,name);
-            }
-            if(choice == 3){
-                int age;
-                printf("Please enter the new age\n");
-                scanf("%d", &age);
-                ptr->age = age;
-            }
-            if(choice == 4){
-                int height;
-                printf("Please enter the new height\n");
-                scanf("%d", &height);
-                ptr->height = height;
-            }
-            if(choice == 5){
-                int weight;
-                printf("Please enter the new weight\n");
-                scanf("%d", &weight);
-                ptr->weight = weight;
-            }
-            if(choice == 6){
-                int code;
-                printf("Please enter the new vaccine code\n");
-                scanf("%d", &code);
-                ptr->shot = code;
-            }
-            if(choice == 7){
-                char name[100];
-                printf("Please enter the new vaccine date\n");
-                scanf("%s", name);
-                strcpy(ptr->date_of_vaccine,name);
-            }
-        }
-
-        return SUCCESS;
-    }
-
-} 
+void modifyrecords()
+{
+	FILE *f;
+	char phonenumber[20];
+	long int size=sizeof(s);
+	if((f=fopen("E:/file.txt","rb+"))==NULL)
+		exit(0);
+	system("cls");
+	printf("Enter phone number of the subscriber to modify:");
+	scanf("%[^\n]",phonenumber);
+	fflush(stdin);
+	while(fread(&s,sizeof(s),1,f)==1)
+	{
+		if(strcmp(s.phonenumber,phonenumber)==0)
+		{
+			system("cls");
+			printf("\n Enter phone number:");
+			scanf("%s",&s.phonenumber);
+			printf("\n Enter name: ");
+			fflush(stdin);
+			scanf("%[^\n]",&s.name);
+			printf("\n Enter amount: ");
+			scanf("%f",&s.amount);
+			fseek(f,-size,SEEK_CUR);
+			fwrite(&s,sizeof(s),1,f);
+			break;
+		}
+	}
+	fclose(f);
+}
