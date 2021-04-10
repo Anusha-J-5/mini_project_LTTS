@@ -2,7 +2,7 @@ void listrecords()
 {
 	FILE *f;
 	int i;
-	if((f=fopen("E:/file.txt","rb"))==NULL)
+	if((f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","rb"))==NULL)
 		exit(0);
 	system("cls");
 	printf("Phone Number\t\tUser Name\t\t\tAmount\n");
