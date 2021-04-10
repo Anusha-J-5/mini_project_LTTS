@@ -2,9 +2,9 @@ void addrecords()
 {
 	FILE *f;
 	char test;
-	f=fopen("E:/file.txt","ab+");
+	f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","ab+");
 	if(f==0)
-	{   f=fopen("E:/file.txt","wb+");
+	{   f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","wb+");
 		system("cls");
 		printf("please wait while we configure your computer");
 		printf("/npress any key to continue");
