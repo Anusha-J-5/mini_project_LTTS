@@ -3,9 +3,9 @@ void deleterecords()
 	FILE *f,*t;
 	int i=1;
 	char phonenumber[20];
-	if((t=fopen("E:/temp.txt","w+"))==NULL)
+	if((t=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","w+"))==NULL)
 	exit(0);
-	if((f=fopen("E:/file.txt","rb"))==NULL)
+	if((f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","rb"))==NULL)
 	exit(0);
 	system("cls");
 	printf("Enter the phone number to be deleted from the Database");
@@ -24,15 +24,15 @@ void deleterecords()
 	if(i==1)
 	{       system("cls");
 		printf("Phone number \"%s\" not found",phonenumber);
-		remove("E:/file.txt");
-		rename("E:/temp.txt","c:/file.txt");
+		remove("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt");
+		rename("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/file.txt","https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt");
 		getch();
 		fclose(f);
 		fclose(t);
 		main();
 	}
-	remove("E:/file.txt");
-	rename("E:/temp.txt","E:/file.txt");
+	remove("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt");
+	rename("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/file.txt","https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt");
 	system("cls");
 	printf("The Number %s Successfully Deleted!!!!",phonenumber);
 	fclose(f);
