@@ -3,7 +3,7 @@ void searchrecords()
 	FILE *f;
 	char phonenumber[20];
 	int flag=1;
-	f=fopen("E:/file.txt","rb+");
+	f=fopen("https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/3_Implementation/temp.txt","rb+");
 	if(f==0)
 		exit(0);
 	fflush(stdin);
