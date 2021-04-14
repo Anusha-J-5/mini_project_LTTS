@@ -19,8 +19,8 @@ void modifyrecords()
 			printf("\n Enter name: ");
 			fflush(stdin);
 			scanf("%[^\n]",&s.name);
-			printf("\n Enter amount: ");
-			scanf("%f",&s.amount);
+			printf("\n Enter age: ");
+			scanf("%f",&s.age);
 			fseek(f,-size,SEEK_CUR);
 			fwrite(&s,sizeof(s),1,f);
 			break;
