@@ -8,7 +8,7 @@ struct contact
 {
 char phonenumber[20];
 char name[50];
-float amount;
+float age;
 }s;
 
 char get;
@@ -31,7 +31,7 @@ int main()
 	{
 		system("cls");
 		printf("\n enter\n A : for adding new records.\n L : for list of records");
-		printf("\n M : for modifying records.\n P : for payment");
+		printf("\n M : for modifying records.\n P : for age");
 		printf("\n S : for searching records.");
 		printf("\n D : for deleting records.\n E : for exit\n");
 		choice=getche();
