@@ -18,8 +18,8 @@ void addrecords()
 		printf("\n Enter name:");
 		fflush(stdin);
 		scanf("%[^\n]",&s.name);
-		printf("\n Enter amount:");
-		scanf("%f",&s.amount);
+		printf("\n Enter age:");
+		scanf("%f",&s.a);ge
 		fwrite(&s,sizeof(s),1,f);
 		fflush(stdin);
 		system("cls");
