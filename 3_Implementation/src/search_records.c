@@ -15,7 +15,7 @@ void searchrecords()
 		if(strcmp(s.phonenumber,phonenumber)==0)
 		{	system("cls");
 			printf(" Record Found ");
-			printf("\n\nPhonenumber: %s\nName: %s\nAmount: Rs.%0.2f\n",s.phonenumber,s.name,s.amount);
+			printf("\n\nPhonenumber: %s\nName: %s\nAge: %0.2f\n",s.phonenumber,s.name,s.age);
 			flag=0;
 			break;
 		}
