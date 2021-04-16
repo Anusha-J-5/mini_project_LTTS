@@ -37,12 +37,10 @@
 
 
 
-![Architecture](https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/2_Design/architecture%20(1).png)
-* Component Diagram :
-![ComponentDiagram]()
+![Architecture](https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/2_Design/ARCHITECTURE%20(2).png)
 
 * Usecase Diagram :
-![UsecaseDiagram]()
+![UsecaseDiagram](https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/2_Design/usecase.png)
 
 ## Low Level Design 
 
