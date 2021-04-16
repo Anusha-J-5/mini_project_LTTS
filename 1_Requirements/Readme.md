@@ -59,6 +59,14 @@ The data can be organised well in a computer based contact management system.
 # Detail requirements
 ## High Level Requirements: 
 
+ID and Description | Status
+-------------------| -----------------------------------------
+`1_Add Record`     | Implemented
+`2_Update Record`  | Implemented
+`3_Display list`   | Implemented
+`4_Search Record`  | Implemented
+`4_Delete Record`  | Implemented
+
 
 ##  Low level Requirements:
  
