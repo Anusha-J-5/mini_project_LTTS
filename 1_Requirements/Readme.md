@@ -18,10 +18,10 @@ A chance of backup is always present when a computer based contact management sy
 The data can be organised well in a computer based contact management system.
 
 ## Cost and Features with Time 
-| Time | Feature | Cost |
-| Till 1980s | Contact book | - |
-|1984| Exsell for DOS|-|
-||cloud based||
+### | Time | Feature | Cost |
+### | Till 1980s | Contact book | - |
+### |1984| Exsell for DOS|-|
+### ||cloud based||
 
 
 ## Defining Our System
@@ -31,13 +31,10 @@ The data can be organised well in a computer based contact management system.
  *Employee contact management system in an organisation
  *Telecom bill
  *Patient records in hospital
-   
-![Description]()
 
-* Since we have assumed that few systems already exists we can say that in future sprints new features could be added in which for instance patient record from PMS can be sent to HMS or Analytics or even to emegency services if some patient record shows abnormal pattern.
 
 ## SWOT ANALYSIS
-![SWOT Analysis]()
+![SWOT Analysis](https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/1_Requirements/swot.png)
 
 # 4W&#39;s and 1&#39;H
 
