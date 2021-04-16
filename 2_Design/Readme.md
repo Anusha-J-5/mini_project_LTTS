@@ -2,7 +2,7 @@
 
 ## High Level Design 
 * Architecture Design :
-![Architecture]()
+![Architecture](https://github.com/Anusha-J-5/mini_project_LTTS/blob/main/2_Design/architecture%20(1).png)
 * Component Diagram :
 ![ComponentDiagram]()
 
