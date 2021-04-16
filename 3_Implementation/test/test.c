@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <fun.h>
-#define PROJECT_NAME    "Contact_Management"
+#define PROJECT_NAME "Contact_Management"
 
 /* Prototypes for all the test functions */
   void addrecords();
@@ -35,36 +35,31 @@ int main()
 
 /* Write all the test functions */ 
 void test_add(void) {
-  TEST_ASSERT_EQUAL(, addrecords());
+  TEST_ASSERT_EQUAL(0, addrecords());
   
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(, addrecords());
+
 }
 
 void test_delete(void) {
-  TEST_ASSERT_EQUAL(, test_delete());
+  TEST_ASSERT_EQUAL(0, test_delete());
   
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(, test_delete());
+ 
 }
 
 void test_list(void) {
-  TEST_ASSERT_EQUAL(, test_list());
+  TEST_ASSERT_EQUAL(0, test_list());
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(, test_list());
+  TEST_ASSERT_EQUAL(0, test_list());
 }
 
 void test_search(void) {
-  TEST_ASSERT_EQUAL(,test_search());
+  TEST_ASSERT_EQUAL(0,test_search());
   
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(,test_search());
+
 }
 void test_modify(void) {
-  TEST_ASSERT_EQUAL(,test_modify());
-  
-  /* Dummy fail*/
-  TEST_ASSERT_EQUAL(,test_modify());
+  TEST_ASSERT_EQUAL(0,test_modify());
+
 }
 
